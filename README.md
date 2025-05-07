@@ -1,6 +1,6 @@
 # Illuminati Database: Assignment for Databases Course 2023-2024
 
-**Course:** Electrical and Computer Engineering at Aristotle University of Thessaloniki (AUTh)
+Electrical and Computer Engineering at Aristotle University of Thessaloniki (AUTh)
 
 This repository contains the deliverables for the Databases course assignment focusing on the design and implementation of a relational database for a hypothetical organization (inspired by the concept of the Illuminati).
 
