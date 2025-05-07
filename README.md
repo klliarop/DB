@@ -4,6 +4,8 @@ Electrical and Computer Engineering at Aristotle University of Thessaloniki (AUT
 
 This repository contains the deliverables for the Databases course assignment focusing on the design and implementation of a relational database for a hypothetical organization (inspired by the concept of the Illuminati).
 
+'Illuminati Central Database (Classified!) - Ever wondered how a highly discreet organization (hypothetically speaking) keeps its registrations, events, projects and meeting hubs in a row? This database aims to be the answer! It's designed to secretly manage different functionalities and user roles to always keep such organizations one step ahead!'
+
 ## 1st Deliverable: Complete Theoretical Implementation of a Relational Database
 
 This deliverable outlines the foundational theoretical aspects of the database design, encompassing:
