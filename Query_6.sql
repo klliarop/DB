@@ -1,0 +1,1 @@
+SELECT MAX(payment) FROM coach;

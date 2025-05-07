@@ -1,0 +1,25 @@
+First view: 
+
+CREATE VIEW View_all_men_with_level_5 AS
+SELECT member.idMember, member.fullname, sectarian_arcade.location
+FROM member JOIN sectarian_arcade ON member.Sectarian_arcade_id_arcade = sectarian_arcade.idArcade
+WHERE member.gender = 'M' AND member.level_member = '5';
+
+Second view:
+
+CREATE VIEW view_activities_details AS
+SELECT activities.idActivities, activities.description, activities.Sectarian_arcade_id_arcade, sectarian_arcade.location
+FROM activities JOIN sectarian_arcade ON activities.Sectarian_arcade_id_arcade = sectarian_arcade.idArcade;
+
+Third view:
+
+CREATE VIEW view_activities_with_20_points_and_3000_budget AS
+SELECT activities.idActivities, activities.description
+FROM activities
+WHERE activities.points = '20' AND activities.budget = '3000.00';
+
+Forth view: 
+
+CREATE VIEW sign_contract AS 
+SELECT member.fullname, member.level_member, contract.sign_date
+FROM contract JOIN member ON contract.idContract = member.Contract_idContract;
